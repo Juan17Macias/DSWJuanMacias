@@ -1,0 +1,100 @@
+header{
+    background-color: rgb(158, 132, 113);
+}
+
+nav{
+background-color: burlywood;
+grid-column: 5/5;
+
+}
+section{
+    grid-column: 1/4;
+    background-color: cadetblue;
+    padding: 10px;
+}
+
+aside{
+    grid: column 4/5;
+background-color: darkgrey;
+padding: 10px;
+}
+
+footer{
+
+background-color: darkslategray;
+}
+
+div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+}
+h1{
+    color: bisque;
+  text-align: center;
+}
+h2{
+    color: bisque;
+    text-align: center;
+}
+
+/* -----..::Estilos del menu::..  */ 
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 30;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align:right;
+    padding: 10px 70px;
+    text-decoration: none;
+  }
+  
+  li a:hover, .dropdown:hover .dropbtn {
+    background-color:royalblue;
+  }
+  
+  li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  /* -----..::FOOTER::..  */
+
+p.pie{
+  color: gold;
+}
+#Autor + h2{
+  color: red;
+}
