@@ -93,8 +93,12 @@ ul{
   /* -----..::FOOTER::..  */
 
 p.pie{
-  color: gold;
+  color:black;
+  text-align: center;
 }
-#Autor + h2{
-  color: red;
+.Autor {
+  color: tomato;
+  text-align: center;
+  line-height:0px;
+
 }
