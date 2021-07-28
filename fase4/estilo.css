@@ -5,11 +5,8 @@ header{
 nav{
 background-color: burlywood;
 grid-column: 5/5;
-position:absolute;
-z-index:1;
 
 }
-
 section{
     grid-column: 1/4;
     background-color: cadetblue;
